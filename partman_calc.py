@@ -7,7 +7,7 @@ import re
 import string
 from pygal.style import CleanStyle
 
-default_partitions = ('/boot', '/', '/var', '/tmp', '/home', 'swap')
+default_partitions = ('/boot', '/', '/tmp', '/var', 'swap', '/home')
 default_formats = {"stacked": "Stacked Bar Graph", "pie": "Pie Graph", "partman": "Partman Recipe"}
 
 
