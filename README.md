@@ -39,6 +39,10 @@ once _partman_ has done its thing, and the calculated priority determines which
 partition gets more space in situations where the requested sizes exceed the
 size of the underlying disk. Simple, right? :wink:
 
+## Demo
+
+<http://shady.klausbunny.tv>
+
 ## License
 
 GPL
