@@ -197,7 +197,7 @@ def graph_results(display_format, disk_size, data_points):
         chart = pygal.Pie(inner_radius=.3333333333, height=800)
         chart.config(style=CleanStyle)
     else:
-        chart = pygal.HorizontalStackedBar(height=250, x_title='Size in MB')
+        chart = pygal.HorizontalStackedBar(height=250, x_title='Size in MiB')
         
     for i in range(len(data_points)):
         chart.add(data_points[i][0], [{
@@ -271,7 +271,7 @@ def make_percent(numerator, denominator):
     return float("{0:.2f}".format((float(numerator) / float(denominator) * 100)))
 
 
-# convert a disk size in MB to the nearest convenient human-readable unit
+# convert a disk size in MiB to the nearest convenient human-readable unit
 def bytes_to_human(nMbytes):
     suffixes = ['MiB', 'GiB', 'TiB', 'PiB']
     if nMbytes == 0: return '0 B'

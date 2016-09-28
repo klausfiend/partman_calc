@@ -87,3 +87,16 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# misc crap
+.*sw?
+.virtualenv
+core
+id_dsa*
+id_rsa*
+*.pem
+*.crt
+*.pyc
+*.key
+.boto
+.DS_Store
