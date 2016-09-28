@@ -9,7 +9,7 @@ partitioning or to generate a _partman_ recipe proper.
 
 It was with considerable frustration that the author discovered that what's in
 a _partman_ recipe isn't always what ends up on disk; there is an older tool in
-the Debian Wiki called _PartmanPRC_, but it has some limitations, like not
+the Debian Wiki called _PartmanPrc_, but it has some limitations, like not
 properly handling '-1' in an input field, being overly rigid about how the
 application runs, and generally being kind of old. This application uses PyGal
 to generate SVG diagrams in a browser window, or to generate _partman_ recipes
