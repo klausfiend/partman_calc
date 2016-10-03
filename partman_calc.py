@@ -157,6 +157,7 @@ def partman_algorithm(disk_size, ram_avail, inputs):
             prev_maximum = list(maximum)
         else:
             ready = True
+            break
 
         factsum = sum(factors)
         minsum = sum(minimum)
